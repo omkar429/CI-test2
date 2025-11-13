@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: chekcout repro
-        uses: actions/chekcout@v2
+        uses: actions/chekcout@v3
       - name: setup python
         uses: actions/setup-python@v2
         with:
